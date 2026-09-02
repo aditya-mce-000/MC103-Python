@@ -89,4 +89,10 @@
 
 # squares = list(i**2 for i in range(11))
 # squares = [i**2 for i in range(11)]
-# print(squares
+# print(squares)
+
+cities = True
+# print(cities is True)
+# print(cities is not True)
+print(cities == False)
+print(cities != True)
