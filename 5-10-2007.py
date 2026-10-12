@@ -18,19 +18,27 @@
 
 
 #Exceptions
-while True:
-    try:
-        p = int(input("Enter 1st number: "))
-        q = int(input("Enter 2nd number: "))
-        break
-    except:
-        print("Try Again")
+# while True:
+#     try:
+#         p = int(input("Enter 1st number: "))
+#         q = int(input("Enter 2nd number: "))
+#         break
+#     except:
+#         # print("Try Again")
 
-try:
-    print(p/q)
-except:
-    print("You can't divide by zero")
-else:
-    print('hi')
-finally:
-    print('Done')
+# try:
+#     p = int(input("Enter 1st number: "))
+#     q = int(input("Enter 2nd number: "))
+# except:
+#     print("You can't divide by zero and please enter integer.")
+# else:
+#     print(p/q)
+# finally:
+#     print('Done')
+
+# x = "Aditya"
+# print(x[::-1])
+
+# a = 1
+# a += 1
+# print(a)
